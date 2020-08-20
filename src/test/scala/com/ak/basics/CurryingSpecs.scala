@@ -9,5 +9,8 @@ import org.scalactic.source.Position.apply
 
 @RunWith(classOf[JUnitRunner])
 class CurryingSpecs extends AnyFlatSpec with Matchers with BeforeAndAfterAll {
-  
+  "Currying" should "return proper result" in {
+    Currying.isDivisibleby55(20) should be(false)
+    Currying.isDivisibleby55(110) should be(true)
+  }
 }
