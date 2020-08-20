@@ -7,7 +7,7 @@ object Methods {
    *
    * Replace ??? with actual implementation.
    */
-  def addTwoNumbers(a: Int, b: Int): Int = a + b
+  def addTwoNumbers(a: Int, b: Int): Int = ???
 
   /**
    * This method is used to find sum of numbers between two numbers and return result.
@@ -16,12 +16,6 @@ object Methods {
    *
    * Replace ??? with actual implementation.
    */
-  def findSumUsingLoop(a: Int, b: Int): Int = {
-    var sum = 0
-    for (i <- a to b) {
-      sum += i
-    }
-    sum
-  }
+  def findSumUsingLoop(a: Int, b: Int): Int = ???
 
 }
